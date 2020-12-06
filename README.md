@@ -17,7 +17,9 @@ The prototype is based on the following hardware:
 * SparkFun Electronics PRT-00449 RS232 SHIFTER
 * BME280 Breakout board. (T/RH/P sensor)
 
-If the display is not neeeded, a Wemos ESP32 without OLED will work fine (an option to disable display is provided in code)
+To use the display of the Wemos ESP32 OLED Module, the [ESP8266_and_ESP32_Oled_Driver_for_SSD1306_display](https://github.com/ThingPulse/esp8266-oled-ssd1306) library needs to be present.
+If the display is not neeeded, a Wemos ESP32 without OLED will work fine (an option to disable display is provided in code).
+
 
 ```
 ESP32 OLED PINOUT:
@@ -31,5 +33,5 @@ ESP32 OLED PINOUT:
 ## Software
 
 The code is currently based on the Arduino platform and requires the Arduino environment to be set up to work with ESP32 (see [https://github.com/espressif/arduino-esp32](https://github.com/espressif/arduino-esp32))
-Refer to the code for libraries and other dependecies.
+Refer to the code for libraries and other dependecies. 
 
